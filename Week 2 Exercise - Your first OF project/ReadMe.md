@@ -1,3 +1,16 @@
+# Circle Loop✨
+
+For this exercise I mainly modified last semester's 3D graphics assignment and added modifiers to modify the number of graphics and their orientation in the x, y, and z-axis in real time. It is worth mentioning that because I put in the z-axis, I can convert flat 2D graphics to 3D when using the mouse.
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Final%20work/mix.png)  
+
+You can watch the demo video through this link：https://youtu.be/lrOSLaOZkK4
+
+## OpenFrameworks
+
+OpenFrameworks is a library of classes written in the computer programming language C ++ that help facilitate fast and efficient coding of applications primarily for artistic expression or experimentation. Also OpenFrameworks is designed as a cross-platform library, so programs using the code can be compiled on almost any operating system and can run on certain mobile devices. This could lead to many possibilities, especially in the process of instilling digital art into galleries, where viewers could download the displayed interactive artwork to their mobile devices for later viewing. Another benefit of cross-platform is the ability to integrate unique input devices (such as touch screens) on handheld devices or 3D motion tracking cameras on game consoles.
+
+# Knowledge Expansion💫
 This week started with C++ and I explored mainly about pointers.🎱
 
 ## What exactly is a pointer? Is it an address? Or is it a type?
