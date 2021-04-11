@@ -12,5 +12,27 @@ Regarding pointers, there are two schools of thought.
 
 ### Here's an answer that I think is easy to understand📝
 
-1.Declaring a variable: When a variable is declared in C, the compiler sets aside a unique address cell in memory to store the variable, as shown in the figure below. The variable var is initialized to 100 and the compiler leaves the memory cell at address 1004 for the variable and associates the address 1004 with the name of the variable.
+* **Declaring a variable**: When a variable is declared in C, the compiler sets aside a unique address cell in memory to store the variable, as shown in the figure below. The variable var is initialized to 100 and the compiler leaves the memory cell at address 1004 for the variable and associates the address 1004 with the name of the variable.
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Example%20diagrams/1.png)  
+
+* **Create a pointer**: The address of the variable var is 1004, which is a number. This number of the address can be saved with another variable for it. Suppose this variable is p. At this time, the variable p is not initialized and the system allocates space for it, but the value is not yet determined, as shown in the following figure.
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Example%20diagrams/2.png) 
+
+* **Initializing a pointer**: Storing the address of a variable var into a variable p. After initialization `(p=&var)`, p points to var and is called a pointer to var. A pointer is a variable that stores the address of another variable.
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Example%20diagrams/3.png) 
+
+* **Declare pointer**: typename `*p` where typename refers to the variable type of var, can be short, char, float, because each type occupies different memory bytes, short occupies 2 bytes, char occupies 1 byte, float occupies 4 bytes, the value of the pointer is equal to the address of the first byte of the variable it points to . `*` is an indirect operator, indicating that `p` is a pointer variable, as distinguished from a non-pointer variable.
+
+* `*p` and var refer to the contents of var; `p` and `&var` refer to the address of var
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Example%20diagrams/4.png) 
+
+### Since the value of pointer `*p` is equal to var,`p` is equal to `&var`, why invent this one more pointer symbol to increase the amount of memory.
+
+**There are two main functions of a pointer: avoiding copies and sharing data.**
+
+**The important function of a pointer is to pass parameters between functions.**
 
