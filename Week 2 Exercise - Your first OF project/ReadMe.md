@@ -4,7 +4,7 @@ For this exercise I mainly modified last semester's 3D graphics assignment and a
 
 ![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%202%20Exercise%20-%20Your%20first%20OF%20project/Images/Final%20work/mix.png)  
 
-You can try it through download the *CircleLoop.xcodeproj.zip* file
+You can try it through download the **CircleLoop.xcodeproj.zip** file
 
 You can watch the demo video through this link：https://youtu.be/lrOSLaOZkK4
 
