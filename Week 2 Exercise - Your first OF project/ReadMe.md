@@ -1,3 +1,12 @@
+# Week 2 Exercise - Your first OF project
+
+> Select a JavaScript project you completed last term and port it to C++ using openFrameworks
+
+(I think Mick's goal is to familiarize us with the programming language C++ and the platform OF）
+
+And here is my redo project 👇👇
+
+
 # Circle Loop✨
 
 For this exercise I mainly modified last semester's 3D graphics assignment and added modifiers to modify the number of graphics and their orientation in the x, y, and z-axis in real time. It is worth mentioning that because I put in the z-axis, I can convert flat 2D graphics to 3D when using the mouse.
