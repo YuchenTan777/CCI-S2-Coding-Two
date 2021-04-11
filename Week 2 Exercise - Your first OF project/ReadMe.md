@@ -51,3 +51,5 @@ Regarding pointers, there are two schools of thought.
 
 **The important function of a pointer is to pass parameters between functions.**
 
+Reference :https://www.zhihu.com/question/31022750
+
