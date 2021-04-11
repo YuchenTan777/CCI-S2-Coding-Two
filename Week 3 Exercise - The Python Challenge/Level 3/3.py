@@ -7,3 +7,5 @@ pattern = re.compile('<!--(.*?)-->',re.S)
 anwser = re.findall(pattern,str(anwser))
 key = re.findall('[a-z]+[A-Z]{3}([a-z])[A-Z]{3}[a-z]+',str(anwser))
 print("".join(key))
+
+# linkedlist
