@@ -26,3 +26,8 @@ Every website has a different structure. These are a few important things to thi
 * Will you need to gather more data from the next page?
 
 > HTML describes the structure of a web page semantically, and originally included cues for the appearance of the document.
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%204%20Exercise%20-%20Python%20webscraper/container.png)
+
+### Building a DataFrame With pandas 💫
+
