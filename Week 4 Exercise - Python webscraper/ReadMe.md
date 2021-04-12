@@ -25,4 +25,4 @@ Every website has a different structure. These are a few important things to thi
 * How do we get to those web pages?
 * Will you need to gather more data from the next page?
 
-
+> HTML describes the structure of a web page semantically, and originally included cues for the appearance of the document.
