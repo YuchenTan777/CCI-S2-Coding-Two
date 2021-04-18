@@ -108,7 +108,13 @@ blur_image= cv2.GaussianBlur(img, (11,11),0)
 
 ![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%206%20Exercise%20-%20Signal%20Processing%20in%20Numpy%20and%20Tensorflow/image/blurry.png)
 
-Image augmentation is a strategy that enables practitioners to significantly increase the diversity of images available for training models, without actually collecting new images. For training any Machine Learning model and specifically Deep Learning model, having a large dataset is very important and can improve the performance of the model dramatically. When we train a deep learning model on images, we need at least tens of thousands of images to generalise the pattern of the images.
+* 8. I also tried to use cv2 to convert Picasso's abstract paintings into a softer watercolor style
+
+![image](https://github.com/YuchenTan777/CCI-S2-Coding-Two/blob/main/Week%206%20Exercise%20-%20Signal%20Processing%20in%20Numpy%20and%20Tensorflow/oildream.jpg)
+
+## Conclusion 
+
+✨Image augmentation is a strategy that enables practitioners to significantly increase the diversity of images available for training models, without actually collecting new images. For training any Machine Learning model and specifically Deep Learning model, having a large dataset is very important and can improve the performance of the model dramatically. When we train a deep learning model on images, we need at least tens of thousands of images to generalise the pattern of the images.
 
 Generating image data is expensive and tedious work. Machines are blind without data. In such a case, we can generate more images from existing images by applying different transformations techniques on it. There are different techniques like rotation, flipping, shifting, etc. which can help us to diversify the image data. We can generate more than 10X or 100X images if we have at least 4–5 transformations techniques. We can also use methods to blur the image and add random noise to image, to generate more images.📝
 
