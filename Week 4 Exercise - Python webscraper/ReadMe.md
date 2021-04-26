@@ -6,7 +6,7 @@
 
 ## Build a simple webscraper
 
-For this project, I’ll scrape data from IMDb’s “Top 1,000” movies, specifically the top 50 movies on this page. Here is the information we’ll gather from each movie listing:
+For this project, I’ll scrape data from IMDb’s “Top 1,000” movies, specifically the top 50 movies on this page. Here is the information I’ll gather from each movie listing:
 
 
 * The title
